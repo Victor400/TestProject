@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Salesforce.E2E_AutomationTest.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Validating title in the page(failed)">
+    <classes>
+      <class name="Salesforce.E2E_AutomationTest.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="TearDown"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- Salesforce.E2E_AutomationTest.ValidateTitle -->
+      <class name="Salesforce.E2E_AutomationTest.ValidateHeader">
+        <methods>
+          <include name="initialize"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Salesforce.E2E_AutomationTest.ValidateHeader -->
+      <class name="Salesforce.E2E_AutomationTest.HomePage">
+        <methods>
+          <include name="TearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Salesforce.E2E_AutomationTest.HomePage -->
+    </classes>
+  </test> <!-- Validating title in the page(failed) -->
+  <test parallel="tests" name="Validating user login(failed)">
+    <classes>
+      <class name="Salesforce.E2E_AutomationTest.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Salesforce.E2E_AutomationTest.ValidateTitle -->
+      <class name="Salesforce.E2E_AutomationTest.ValidateHeader">
+        <methods>
+          <include name="initialize"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Salesforce.E2E_AutomationTest.ValidateHeader -->
+      <class name="Salesforce.E2E_AutomationTest.HomePage">
+        <methods>
+          <include name="TearDown"/>
+          <include name="initialize"/>
+          <include name="validateLoginError"/>
+        </methods>
+      </class> <!-- Salesforce.E2E_AutomationTest.HomePage -->
+    </classes>
+  </test> <!-- Validating user login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

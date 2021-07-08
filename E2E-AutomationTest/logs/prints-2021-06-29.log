@@ -1,0 +1,8 @@
+14:30:14.150 [TestNG] INFO  resources.base - Permitted user
+14:30:14.164 [TestNG] INFO  resources.base - Successfully validated text message
+20:23:22.618 [main] INFO  resources.base - Driver is Initialized
+20:30:25.071 [main] INFO  resources.base - Driver is Initialized
+20:30:30.271 [main] INFO  resources.base - Non-Restricted user
+20:30:42.859 [main] INFO  resources.base - Successfully validated text message
+20:31:18.109 [main] INFO  resources.base - Restricted user
+20:31:18.214 [main] INFO  resources.base - Successfully validated text message
